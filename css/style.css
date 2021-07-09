@@ -3,6 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -57,16 +58,19 @@ ul li::before {
 ul li:nth-child(1)::before {
   content: "\f167";
   color: #ff0000;
+  border-bottom: 4px solid #ff0000;
 }
 
 ul li:nth-child(2)::before {
   content: "\f232";
   color: #25d366;
+  border-bottom: 4px solid #25d366;
 }
 
 ul li:nth-child(3)::before {
   content: "\f099";
   color: #1da1f2;
+  border-bottom: 4px solid #1da1f2;
 }
 
 ul li:hover::before {
